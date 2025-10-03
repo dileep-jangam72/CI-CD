@@ -18,4 +18,4 @@ spec:
       - name: devops-webapp
         image: YOUR_DOCKER_HUB_USERNAME/devops-webapp:latest # Replace with your Docker Hub username
         ports:
-        - containerPort: 500
+        - containerPort: 5000
