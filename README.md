@@ -109,7 +109,4 @@ After the Docker image is successfully pushed to Docker Hub by the CI pipeline, 
 
 Feel free to fork this repository and adapt it to your needs. Contributions are welcome!
 
-## License
-
-This project is open-source and available under the MIT License. See the `LICENSE` file for more details. (You might want to add a LICENSE file to your repo.)
 
