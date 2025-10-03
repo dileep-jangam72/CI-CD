@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: devops-webapp-deployment
+  labels:
+    app: devops-webapp
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: devops-webapp
+  template:
+    metadata:
+      labels:
+        app: devops-webapp
+    spec:
+      containers:
+      - name: devops-webapp
+        image: YOUR_DOCKER_HUB_USERNAME/devops-webapp:latest # Replace with your Docker Hub username
+        ports:
+        - containerPort: 500
